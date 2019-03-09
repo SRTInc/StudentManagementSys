@@ -5,11 +5,24 @@
         <link rel='stylesheet' type='text/css' href='style.css'>
     </head>
     <body background="Huge-Backgrounds-21.jpg">  
-      <div class="top">
-          <h1 style="padding:10px;">STUDENT DATABASE MANAGEMENT</h1>
-        <div >       
-      </div>
-    </div>
+      
+    
+
+        <div class="top"><h1 style="padding:0px;">STUDENT DATABASE MANAGEMENT</h1></div>
+              <div class="navbar" > 
+                 <div class='dropdown'>
+                  <button1 class='dropbtn'>&#8694 MENU
+                    <i class='fa fa-caret-down'></i>
+                  </button1>
+                  <div class="dropdown-content">
+                    <a href="#">Home</a>
+                    <a href="#">Login</a>
+                    <a href="#">About us</a>              
+                  </div>
+                
+            </div>
+          </div>
+      
       <div class="loginbox">
         <form action="sdk.php">
             <h2>Login </h2></p>
@@ -18,11 +31,11 @@
               
               <input type="text" placeholder="Enter Username" name="uname" required><br>
               <input type="password" placeholder="Enter Password" name="psw" required><br>
-              <button type="submit">Login</button><br>
+              <button class="btn" type="submit">Login</button><br>
               <label>
                 <input type="checkbox" checked="checked" name="remember"> keep me signed in
               </label></p>
-              <label1>Forgot <a href="#">password?</a></label1>
+              <label class="fgt">Forgot <a href="#">password?</a></label>
             </div>
           </div>
           </form>
