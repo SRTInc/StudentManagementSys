@@ -1,20 +1,22 @@
 .top{ 
   position: relative;
-  border-radius: 10px;
+  align-content: center;
   border-style:outset;
-  border-color: rgb(74, 143, 199);
   top:-8px; 
   max-width: 100%;
-  height: 120px;
-  background-color: white;
-  opacity: 0.8 ;
+  height: 70px;
+  background-color:#1a8cff;
+  
 }
 form {
     
     margin-top: 7%; 
 
       }
-
+body{
+  background-repeat:no-repeat;
+  background-size: 100%
+}
 
 label{
     width: 25%;
@@ -23,36 +25,36 @@ label{
     }
 h1{ 
   text-align: center;
-  color: #337ab7;
+  color: white;
 }
 h2{
   
-  margin: 8px 200px;
+  margin: 8px 1px;
   font-size: 30px ;
-  padding: 12px 20px;
+  padding: 12px 150px;
   font-family:cursive;
   color: black;
+
 }
 
 .loginbox{
-  border-style: outset;
-  border-color: gray;
-  width: 500px;
+  width: 400px;
   height: 420px;
   background: whitesmoke;
   opacity: 0.8 ;
   color: #1a8cff;
-  top:30%;
-  left:30%;
-  position: absolute;
+  top:25%;
+  left:35%;
+  position:fixed ;
   transform: translate(-50,-500);
   box-sizing: border-box;
+
 }
 
-input[type=text], input[type=password] {
+  input[type=text], input[type=password] {
     width: 70%;
     padding: 12px 20px;
-    margin: 8px 80px;
+    margin: 8px 60px;
     display: inline-block;
     border-radius: 20px;
     border: 1px solid #ccc;
@@ -60,59 +62,91 @@ input[type=text], input[type=password] {
   }
   
 
-button {
+.btn {
     background-color: #1a8cff;
     color: white;
     padding: 14px 20px;
-    margin: 20px 200px;
+    margin: 20px 150px;
     border: none;
     cursor: pointer;
     width: 25%;
   }
   
   
-button:hover {
+.btn:hover {
     opacity: 0.8;
   }
   
- 
-label1 {
+    .fgt {
     padding: 12px 20px;
     margin: 8px 80px;
       }
-      ul{
-        margin:0px;
-        padding:0px;
-        list-style:none;
-      }
 
-      ul li{
+
+
+      .navbar{
+        overflow: hidden;
+        background-color:transparent;
+        font-family: Arial, Helvetica, sans-serif;
+        
+       
+      }
+          
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+      }
+         
+      .dropdown{
         float:left;
-        width:200px;
-          height:40px;
-        background-color:whitesmoke;
-        opacity:.8;
-        line-height:40px;
-        text-align:center;
-        font-size:20px;
-        margin:2px;
-        
-        
-      }
-   
-      ul li {
-        text-decoration:none;
-        color:black;
-        display:block;
-      }
-      ul li:hover{
-        
-        background-color:lightskyblue;
+        overflow: hidden;
       }
       
-      ul li:hover ul li{
+      .dropdown .dropbtn{
+        font-size: 16px;
+        font-family: inherit;
+        background-color: black;
+        opacity: 0.8;
+        color: white;
+        border-color:black ;
+        cursor: pointer;
+        
+      }
+      
+      
+      
+      .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: transparent;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        
+        padding: 2px 0px;
+      }
+
+      .dropbtn{
+        block-size: 40%;
+        opacity: 0.8;
+      }
+      
+      .dropdown-content a{
+        float: none;
+        color:black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {
+        background-color  : rgb(77, 139, 255);
+      }
+      
+      .dropdown:hover .dropdown-content{ 
         display:block;
       }
-  
-  
-  
+
+      
