@@ -166,5 +166,28 @@ h2{
 }
 a.flink
 {
+text-decoration: none;
 color:rgb(48, 47, 47) ;
+}
+a.flink:hover{
+ color:blue; 
+}
+hr{
+  display: block;
+  margin-top: 0.0;
+  margin-bottom: 0.0;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: groove;
+  border-width: 1px;  
+}
+.mlink
+{
+  text-decoration: none;
+  color:rgb(48, 47, 47) ;
+  }
+.mlink:hover
+{
+text-decoration: none;
+color:red;
 }
